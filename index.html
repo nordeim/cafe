@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Merlion Brews - Singapore's finest artisan coffee experience. Specialty coffee, Singapore-inspired beverages, and premium pastries in Orchard Road.">
+  <meta name="keywords" content="coffee shop Singapore, artisan coffee, specialty coffee, Orchard Road cafe, Gula Melaka Latte">
+  <meta name="author" content="Merlion Brews Artisan Roastery">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Merlion Brews | Premium Artisan Coffee in Singapore">
+  <meta property="og:description" content="Discover Singapore's finest artisan coffee experience. Locally roasted specialty coffee, signature Singapore-inspired beverages.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_SG">
+  
+  <title>Merlion Brews | Premium Artisan Coffee in Orchard Road, Singapore</title>
+  
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Google Fonts: Playfair Display + Jost -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ============================================
+       HEADER / NAVIGATION
+       ============================================ -->
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <div class="logo__icon">☕</div>
+          <span class="logo__text">Merlion Brews</span>
+        </a>
+        
+        <!-- Navigation -->
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li><a href="#hero" class="nav__link nav__link--active">Home</a></li>
+            <li><a href="#drinks" class="nav__link">Our Menu</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#location" class="nav__link">Visit Us</a></li>
+          </ul>
+        </nav>
+        
+        <!-- Mobile Navigation Toggle -->
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section id="hero" class="hero">
+      <!-- Decorative Elements -->
+      <span class="hero__decoration hero__decoration--1">☕</span>
+      <span class="hero__decoration hero__decoration--2">🫘</span>
+      <span class="hero__decoration hero__decoration--3">✨</span>
+      
+      <div class="hero__content animate-fade-in">
+        <p class="hero__tagline">Welcome to</p>
+        <h1 class="hero__title">Brewing the Spirit of Singapore, One Cup at a Time</h1>
+        <p class="hero__subtitle">Experience artisan coffee crafted with passion. Locally roasted, Singapore-inspired flavors, served with love in the heart of Orchard Road.</p>
+        <div class="hero__buttons">
+          <a href="#drinks" class="btn btn--primary">Explore Menu</a>
+          <a href="#location" class="btn btn--outline-light">Visit Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         PRODUCTS / DRINKS SECTION
+         ============================================ -->
+    <section id="drinks" class="products section">
+      <div class="container">
+        <div class="products__inner">
+          <!-- Section Header -->
+          <div class="products__header animate-fade-in">
+            <span class="tagline">Signature Drinks</span>
+            <h2 class="products__title">Drinks</h2>
+            <p class="products__description">Discover our curated selection of handcrafted beverages, inspired by Singapore's rich coffee heritage.</p>
+            <a href="#" class="btn btn--link">All drinks</a>
+          </div>
+          
+          <!-- Product Cards Grid -->
+          <div class="products__grid">
+            <!-- Product Card 1 -->
+            <article class="product-card animate-fade-in animate-delay-1">
+              <div class="product-card__image">☕</div>
+              <p class="product-card__price">$7.50</p>
+              <h3 class="product-card__name">Gula Melaka Latte</h3>
+              <p class="product-card__description">Creamy latte sweetened with premium palm sugar from Malacca.</p>
+              <a href="#" class="btn btn--link">Order now</a>
+            </article>
+            
+            <!-- Product Card 2 -->
+            <article class="product-card animate-fade-in animate-delay-2">
+              <div class="product-card__image">🍵</div>
+              <p class="product-card__price">$5.80</p>
+              <h3 class="product-card__name">Sea Salt Kopi-O</h3>
+              <p class="product-card__description">Traditional kopi with a modern sea salt foam finish.</p>
+              <a href="#" class="btn btn--link">Order now</a>
+            </article>
+            
+            <!-- Product Card 3 -->
+            <article class="product-card animate-fade-in animate-delay-3">
+              <div class="product-card__image">🌿</div>
+              <p class="product-card__price">$7.00</p>
+              <h3 class="product-card__name">Pandan Cappuccino</h3>
+              <p class="product-card__description">Aromatic pandan-infused espresso with velvety foam.</p>
+              <a href="#" class="btn btn--link">Order now</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         FEATURED CATEGORIES
+         ============================================ -->
+    <section id="categories" class="categories section">
+      <div class="container">
+        <div class="categories__grid">
+          <!-- Category Card: Pastries -->
+          <article class="category-card category-card--pastries animate-fade-in">
+            <div class="category-card__bg"></div>
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <p class="category-card__price">From $4.80</p>
+              <h3 class="category-card__title">Signature Pastries</h3>
+              <p class="category-card__text">Salted Egg Croissants, Kaya Toast Twist & more.</p>
+              <a href="#" class="btn btn--outline-light">View All</a>
+            </div>
+          </article>
+          
+          <!-- Category Card: Coffee Beans -->
+          <article class="category-card category-card--beans animate-fade-in animate-delay-1">
+            <div class="category-card__bg"></div>
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <p class="category-card__price">From $24.00</p>
+              <h3 class="category-card__title">Coffee for Home</h3>
+              <p class="category-card__text">Take our signature blends home. Freshly roasted weekly.</p>
+              <a href="#" class="btn btn--outline-light">Shop Beans</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================ -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="about__inner">
+          <!-- About Image -->
+          <div class="about__image animate-fade-in">
+            ☕
+          </div>
+          
+          <!-- About Content -->
+          <div class="about__content animate-fade-in animate-delay-1">
+            <span class="tagline about__tagline">Tailored-Made Coffee</span>
+            <h2 class="about__title">We offer a unique coffee experience unlike any other in Singapore</h2>
+            <h4 class="about__subtitle">The perfect place to enjoy your coffee</h4>
+            <p class="about__text">At Merlion Brews, we believe great coffee tells a story. We source the finest beans from Southeast Asia, roast them locally in small batches, and craft each cup with the care it deserves.</p>
+            <p class="about__text">Our cozy Orchard Road cafe is designed to be your escape from the city's hustle—a place where every sip transports you to the heart of Singapore's coffee culture.</p>
+            <a href="#" class="btn btn--secondary">Read Our Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         EVENTS SECTION
+         ============================================ -->
+    <section id="events" class="events section section--tan">
+      <div class="container">
+        <div class="events__inner animate-fade-in">
+          <h2 class="events__title">Barista Party</h2>
+          <p class="events__subtitle">Every Friday &amp; Saturday</p>
+          <p class="events__text">Join us for live latte art demonstrations, specialty brew tastings, and a chance to learn the secrets behind the perfect cup from our master baristas.</p>
+          <a href="#" class="btn btn--secondary">Make Reservation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         LOCATION SECTION
+         ============================================ -->
+    <section id="location" class="location section">
+      <div class="container">
+        <div class="location__inner">
+          <!-- Map Placeholder -->
+          <div class="location__map animate-fade-in">
+            📍
+          </div>
+          
+          <!-- Location Content -->
+          <div class="location__content animate-fade-in animate-delay-1">
+            <span class="tagline">Find Us</span>
+            <h2 class="location__title">Visit Our Cafe</h2>
+            <p class="location__address">
+              <strong>Merlion Brews Artisan Roastery</strong>
+              123 Orchard Road, #01-45<br>
+              ION Orchard, Singapore 238879
+            </p>
+            <p class="location__address">
+              <strong>Contact</strong>
+              +65 6123 4567<br>
+              hello@merlionbrews.sg
+            </p>
+            <a href="https://maps.google.com/?q=ION+Orchard+Singapore" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Get Directions</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- About Column -->
+        <div class="footer__column">
+          <h3 class="footer__title">About Us</h3>
+          <p class="footer__text">Merlion Brews is Singapore's premier artisan coffee roastery, bringing you the finest locally-roasted specialty coffee with a distinctly Singaporean twist.</p>
+        </div>
+        
+        <!-- Contact Column -->
+        <div class="footer__column">
+          <h3 class="footer__title">Contact</h3>
+          <p class="footer__text">
+            123 Orchard Road, #01-45<br>
+            ION Orchard, Singapore 238879<br><br>
+            <a href="tel:+6561234567" class="footer__link">+65 6123 4567</a><br>
+            <a href="mailto:hello@merlionbrews.sg" class="footer__link">hello@merlionbrews.sg</a>
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Facebook">f</a>
+            <a href="#" class="footer__social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="footer__social-link" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+        
+        <!-- Opening Hours Column -->
+        <div class="footer__column">
+          <h3 class="footer__title">Opening Hours</h3>
+          <p class="footer__text">
+            Mon – Fri: 07:30 – 21:00<br>
+            Saturday: 08:00 – 22:00<br>
+            Sunday &amp; PH: 09:00 – 20:00
+          </p>
+        </div>
+      </div>
+      
+      <!-- Footer Bottom -->
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2025 Merlion Brews Artisan Roastery. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
